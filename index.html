@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Websites Test</title>
+    <style>
+      .wonder {
+        display: block;
+        width: 1505px;
+        height: 900px;
+        object-fit: cover;
+      }
+
+      .car {
+        display: block;
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        z-index: 1;
+        float: right;
+      }
+
+      .container {
+        position: relative;
+        width: 50%;
+        max-width: 300px;
+      }
+
+      .horn {
+        position: relative;
+        display: inline-block;
+        float: right;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        color: #f1f1f1;
+        width: 1300px;
+        height: 400px;
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 100px;
+        padding: 100px;
+        text-align: center;
+      }
+
+      .overlay2 {
+        position: absolute;
+        bottom: 0;
+        color: #f1f1f1;
+        width: auto;
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 50px;
+        padding: 40px;
+        text-align: center;
+      }
+
+      .horn:hover .overlay2 {
+        opacity: 1;
+      }
+
+      .container:hover .overlay {
+        opacity: 1;
+      }
+
+      .honda em {
+        color: black;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 100;
+        background-color: #f1f1f1;
+      }
+
+      .praise em {
+        color: #f1f1f1;
+        font-style: normal;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body style="background-color: black">
+    <div class="container">
+      <img class="wonder" src="img/header.jpg" alt="welp" />
+      <div class="overlay">Welcome to Japan Honda</div>
+    </div>
+    <p class="honda"><em>Honda is my best friend</em></p>
+    <div class="horn">
+      <a href="aboutme.html"
+        ><img class="car" src="img/vroom.jpg" alt="speed"
+      /></a>
+      <div class="overlay2">Tell a story</div>
+    </div>
+    <div class="story">
+      <p>...............................................</p>
+      <p class="praise">
+        <em
+          >Honda is a global icon of innovation, reliability, and engineering
+          excellence. For decades, the company has set the gold standard in the
+          automotive and motorcycle industries, consistently delivering vehicles
+          that blend performance, efficiency, and affordability. Whether it's
+          the legendary Civic, the rugged CR-V, or the thrilling CBR
+          motorcycles, Honda has built a reputation for crafting machines that
+          stand the test of time. One of Honda’s greatest strengths is its
+          unwavering commitment to quality. Their engines are renowned for their
+          durability, often running flawlessly for hundreds of thousands of
+          miles. The brand’s pioneering spirit has also led to groundbreaking
+          advancements in hybrid technology, fuel efficiency, and safety. Honda
+          was among the first to introduce hybrid vehicles to the mass market
+          with the Insight, paving the way for eco-friendly mobility. Beyond
+          automobiles, Honda has left its mark on robotics, aerospace, and even
+          Formula 1, where its engines have powered championship-winning teams.
+          Their dedication to research and development ensures that they remain
+          at the forefront of technological progress. More than just a brand,
+          Honda represents a philosophy of continuous improvement—The Power of
+          Dreams. It’s a name that stands for reliability, innovation, and a
+          drive to push the boundaries of what’s possible.</em
+        >
+      </p>
+      <p>....................................</p>
+    </div>
+  </body>
+</html>
